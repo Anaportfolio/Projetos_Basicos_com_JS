@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+/* Container */
 .container {
   border: 4px dotted #010f098a;
   border-radius: 10px;
@@ -14,11 +15,13 @@
   justify-content: center;
   align-items: center;
 }
+/* Texto */
 .container span {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 15px;
 }
+/* Cor */
 .container input {
   border: none;
   width: 60px;
