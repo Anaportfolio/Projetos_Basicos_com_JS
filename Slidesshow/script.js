@@ -1,7 +1,7 @@
 //Capturando as propiedades do elemento identificado
 var slide = document.querySelector(".slide");
 
-// Criando um Arry com as imagens
+// Criando um Array com as imagens
 var imgs = ["img/img1.jpg", "img/img2.jpg", "img/img3.jpg", "img/img4.jpg"];
 
 // Atribuindo o tempo que o slide vai demorar para passar as imagens
