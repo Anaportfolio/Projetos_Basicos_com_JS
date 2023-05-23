@@ -1,0 +1,49 @@
+body {
+  background-color: rgba(0, 0, 0, 0.946);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.modal {
+  background-color: rgba(25, 222, 140, 0.803);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 15px 65px;
+  width: 30%;
+}
+span {
+  margin: 10px auto;
+  text-align: justify;
+}
+.botao_fechar {
+  margin-top: 10px auto;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(5, 69, 68);
+}
+.botao_abrir {
+  background-color: rgb(7, 138, 136);
+  height: 56px;
+  width: 100px;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.conteiner {
+  width: 100vw;
+  position: fixed;
+  top: 30px;
+  z-index: 999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
