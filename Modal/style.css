@@ -1,3 +1,4 @@
+/* Corpo */
 body {
   background-color: rgba(0, 0, 0, 0.946);
   width: 100%;
@@ -7,6 +8,7 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+/* Modal */
 .modal {
   background-color: rgba(25, 222, 140, 0.803);
   display: flex;
@@ -15,10 +17,12 @@ body {
   border-radius: 10px;
   width: 30%;
 }
+/* Texto */
 span {
   margin: 10px auto;
   text-align: justify;
 }
+/* Botão Fechar */
 .botao_fechar {
   margin-top: 10px;
   color: black;
@@ -29,6 +33,7 @@ span {
   border: none;
   background-color: rgb(5, 69, 68);
 }
+/* Botão Abrir */
 .botao_abrir {
   background-color: rgb(7, 138, 136);
   height: 56px;
@@ -39,7 +44,8 @@ span {
   font-size: 16px;
   cursor: pointer;
 }
-.conteiner {
+/* Container */
+.container {
   width: 100vw;
   position: fixed;
   top: 30px;
@@ -56,6 +62,7 @@ span {
   animation: modal 0.4s;
 }
 
+/* Animação */
 @keyframes modal {
   from {
     opacity: 0;
