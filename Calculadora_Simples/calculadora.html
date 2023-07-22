@@ -7,14 +7,26 @@
     <title>Calculadora Simples</title>
   </head>
   <body>
-    <form action="">
-      <p>Digite o primeiro número:</p>
-      <input type="text" />
-      <p>Digite o segundo núemro:</p>
-      <input type="text" />
-      <p>Digite a operação que deseja fazer:</p>
-      <input type="text" />
-      <button>Calcular</button>
-    </form>
+    <!-- Título -->
+    <h1>Calculadora Simples</h1>
+
+    <!-- Inputs -->
+    <p>Digite o primeiro número:</p>
+    <input type="number" id="n1" />
+    <p>Digite o segundo núemro:</p>
+    <input type="number" id="n2" />
+
+    <!-- Botão -->
+    <button onclick="somar()">Somar</button>
+    <button onclick="mutiplicar()">Multiplicar</button>
+    <button onclick="dividir()">Dividir</button>
+    <button onclick="subtrair()">Subtrair</button>
+
+    <!-- Resultado -->
+    <p>Resultado é:</p>
+    <span></span>
+
+    <!-- Script -->
+    <script src="script.js"></script>
   </body>
 </html>
