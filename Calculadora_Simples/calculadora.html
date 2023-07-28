@@ -4,27 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Calculadora Simples</title>
   </head>
   <body>
-    <!-- Título -->
-    <h1>Calculadora Simples</h1>
+    <!-- Box -->
+    <div class="box">
+      <!-- Título -->
+      <h1>Calculadora Simples</h1>
 
-    <!-- Inputs -->
-    <p>Digite o primeiro número:</p>
-    <input type="number" id="n1" />
-    <p>Digite o segundo núemro:</p>
-    <input type="number" id="n2" />
+      <!-- Inputs -->
+      <p>Digite o primeiro número:</p>
+      <input type="number" id="n1" />
+      <p>Digite o segundo núemro:</p>
+      <input type="number" id="n2" />
 
-    <!-- Botão -->
-    <button onclick="somar()">Somar</button>
-    <button onclick="mutiplicar()">Multiplicar</button>
-    <button onclick="dividir()">Dividir</button>
-    <button onclick="subtrair()">Subtrair</button>
+      <!-- Botão -->
+      <div class="botao">
+        <button onclick="somar()">Somar</button>
+        <button onclick="mutiplicar()">Multiplicar</button>
+        <button onclick="dividir()">Dividir</button>
+        <button onclick="subtrair()">Subtrair</button>
+      </div>
 
-    <!-- Resultado -->
-    <p>Resultado é:</p>
-    <span></span>
+      <!-- Resultado -->
+      <p>Resultado é:</p>
+      <span></span>
+
 
     <!-- Script -->
     <script src="script.js"></script>
