@@ -1,14 +1,19 @@
+/* Importanto a fonte " Roboto Slab " */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Slab&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
+/* Corpo */
 body {
   margin: 0;
   display: flex;
   background-color: rgba(0, 0, 0, 0.899);
   justify-content: center;
   color: #162b40;
+  font-family: "Roboto Slab", serif;
 }
+/* Box */
 .box {
   background-color: #cc808c;
   display: flex;
@@ -16,21 +21,30 @@ body {
   align-items: center;
   width: 450px;
   height: 350px;
-  padding: 20px;
+  padding: 35px;
   margin-top: 12%;
   border-radius: 15px;
+  border: 7px dashed #162b40;
 }
+/* Título */
+h1 {
+  margin: 10px;
+}
+/* Texto */
 p {
   font-size: 19px;
   margin: 5px;
 }
+/* Input */
 input {
   padding: 5px;
   font-size: 15px;
   margin: 5px;
   border-radius: 5px;
   border: none;
+  outline: none;
 }
+/* Botão */
 .botao {
   flex-direction: row;
   margin: 14px;
@@ -43,7 +57,12 @@ input {
   border: none;
   border-radius: 15px;
   color: #a35c6e;
+  font-size: 15px;
 }
 .botao button:hover {
   background-color: #1a364e;
+}
+/* Resultado */
+span {
+  font-size: 30px;
 }
